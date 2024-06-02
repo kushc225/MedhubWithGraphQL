@@ -1,0 +1,22 @@
+.light-blue {
+  color: rgb(25, 103, 210);
+}
+.light-blue-bg {
+  background-color: rgba(25, 102, 210, 0.2);
+}
+
+.input {
+  background-color: transparent;
+}
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.484) !important;
+}
+.main_container {
+  background-color: rgba(255, 255, 255, 0.838);
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+}
+.black {
+  color: black;
+}

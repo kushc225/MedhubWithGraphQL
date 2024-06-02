@@ -1,0 +1,18 @@
+.signup_container {
+  background: #1d136c !important;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.login_wrapper {
+  box-shadow: none;
+}
+.signin_button {
+  box-shadow: 1px -3px 38px -7px #3c3ab1;
+}
+.signup_input_wrapper {
+}
+.signup_wrapper {
+  box-shadow: 1px -3px 38px -7px #3c3ab1;
+}

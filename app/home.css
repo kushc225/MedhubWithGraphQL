@@ -1,0 +1,44 @@
+.main-home-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  height: 100px;
+  overflow: hidden;
+}
+.navbar {
+  box-shadow: -3px 5px 20px -15px black;
+}
+.home_side_image {
+  z-index: -1;
+  margin-top: -60rem;
+  display: flex;
+  width: 100%;
+}
+.home_side_image img {
+  width: 600px;
+  /* height: 800px; */
+  opacity: 0.8;
+}
+.home_page_button button {
+  box-shadow: 2px 0px 19px 1px #5098b4;
+  transition: all 1 ease;
+}
+.home_page_button button:hover {
+  background: #eeff00;
+  box-shadow: 2px 0px 19px 1px #eeff00;
+}
+
+text {
+  color: rgb(175, 255, 3) !important;
+}
+
+.bg-body {
+  background: #252525;
+}
+.light .font_page_paragraph {
+  color: black !important;
+}

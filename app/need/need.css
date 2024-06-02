@@ -1,0 +1,21 @@
+.need_container {
+  box-shadow: -17px 13px 33px -8px #000000;
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.need_page_table_container {
+  margin-bottom: 19px;
+  padding: 0 14px;
+}
+.odd {
+  background: #39394a;
+}
+.light .odd {
+  background: #d2d2f4;
+}
+.light .text_black {
+  color: black;
+}

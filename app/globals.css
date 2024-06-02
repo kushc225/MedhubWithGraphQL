@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(231, 231, 231);
+}
+body {
+  background: rgb(38, 38, 38);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.light body {
+  background: rgb(255 253 253) !important;
+}
+::placeholder {
+  color: rgb(64, 255, 0) !important;
+}
+.yellow {
+  background: rgb(255, 255, 13);
+}
+
+input:focus {
+  background: transparent;
+}
+input {
+  color: rgb(14, 255, 14);
+}
+
+/* utility clasess start */
+.ggreen {
+  color: rgb(50, 101, 255) !important;
+  /* color: rgb(64, 255, 0) !important; */
+}
+.bggreen {
+  background-color: rgb(50, 101, 255) !important;
+  /* background-color: rgb(64, 255, 0) !important; */
+}
+.hoverclass:hover {
+  /* -webkit-box-shadow: 0px 0px 213px 44px rgba(0, 252, 176, 0.24);
+  -moz-box-shadow: 0px 0px 213px 44px rgba(0, 252, 176, 0.24);
+  box-shadow: 0px 0px 213px 44px rgba(0, 252, 176, 0.24); */
+
+  -webkit-box-shadow: 0px 0px 213px 44px rgba(20, 3, 255, 0.24);
+  -moz-box-shadow: 0px 0px 213px 44px rgba(20, 3, 255, 0.24);
+  box-shadow: 0px 0px 213px 44px rgba(20, 3, 255, 0.24);
+  transition: all 0.5s ease-in-out;
+}
+.neon-shadow-md {
+  -webkit-box-shadow: 0px 0px 227px 104px rgba(20, 3, 255, 0.35) !important;
+  -moz-box-shadow: 0px 0px 227px 104px rgba(20, 3, 255, 0.35) !important;
+  box-shadow: 0px 0px 56px 40px rgba(20, 3, 255, 0.35) !important;
+}
+.neon-shadow {
+  /* -webkit-box-shadow: 0px 0px 213px 44px rgba(0, 252, 176, 0.24);
+  -moz-box-shadow: 0px 0px 213px 44px rgba(0, 252, 176, 0.24);
+  box-shadow: 0px 0px 213px 44px rgba(0, 252, 176, 0.24); */
+
+  -webkit-box-shadow: 0px 0px 227px 104px rgba(20, 3, 255, 0.35);
+  -moz-box-shadow: 0px 0px 227px 104px rgba(20, 3, 255, 0.35);
+  box-shadow: 0px 0px 227px 104px rgba(20, 3, 255, 0.35);
+}
+.bgblue {
+  background: #1d136c !important;
+}
+/* utility clasess end */
+
+.errorclass {
+  color: #ff9800;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232329;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

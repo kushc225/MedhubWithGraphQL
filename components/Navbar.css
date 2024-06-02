@@ -1,0 +1,54 @@
+.header {
+  width: 100vw;
+}
+.dropdown {
+  background: #fff;
+  z-index: 100;
+}
+
+.dropdown li {
+  color: black;
+  border-radius: 10px;
+}
+.navbar {
+  box-shadow: -6px 5px 20px -15px black;
+}
+.dropdown ul li {
+  box-shadow: -3px 5px 20px -15px black;
+  margin-top: 10px;
+}
+.company_name > h1 {
+  font-weight: bold;
+  font-size: 2rem;
+
+  background-color: transparent;
+}
+.navbar li a {
+  font-family: sans-serif;
+}
+.light .navbar li a {
+  color: black;
+}
+
+li a:hover {
+  /* transition: all 0.5s;
+  padding: 10px 20px;
+   background: rgb(225, 249, 221); 
+  border-radius: 20px;
+
+  -webkit-box-shadow: 0px 0px 213px 44px rgba(20, 3, 255, 0.24);
+  -moz-box-shadow: 0px 0px 213px 44px rgba(20, 3, 255, 0.24);
+  box-shadow: 0px 0px 213px 44px rgba(20, 3, 255, 0.24);
+  transition: all 0.5s ease-in-out; */
+}
+.active {
+  border-bottom: 2px solid white;
+}
+.light .active {
+  color: white !important;
+}
+.darkmode {
+  /* color: black !important; */
+  width: 2rem;
+  height: 2rem;
+}
